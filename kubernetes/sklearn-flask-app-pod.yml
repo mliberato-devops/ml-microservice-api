@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+   name: sklearn-flask-app-pod
+spec:
+   containers:
+   - name: sklearn-flask-app
+     image: matheusliberato/sklearn-flask-app:1.0
+     ports:
+     - containerPort: 80

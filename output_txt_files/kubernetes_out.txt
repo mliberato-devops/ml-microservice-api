@@ -1,0 +1,15 @@
+## Fist time
+
+pod/sklearn-flask-app created
+NAME                                   READY   STATUS              RESTARTS   AGE
+sklearn-flask-app                      0/1     ContainerCreating   0          1s
+error: unable to forward port because pod is not running. Current status=Pending
+
+## Second time
+
+Error from server (AlreadyExists): error when creating "kubernetes/pod.yml": pods "sklearn-flask-app" already exists
+NAME                                   READY   STATUS    RESTARTS   AGE
+sklearn-flask-app                      1/1     Running   0          2m48s
+Forwarding from 127.0.0.1:8080 -> 80
+Handling connection for 8080
+
